@@ -38,7 +38,7 @@
       <div class="max-width">
         <div class="home-content">
           <div class="home-text1"><h1>it student</h1></div>
-          <div class="home-qoute"><p>I will code until i die</p></div>
+          <div class="home-qoute"><p>Aspiring web developer</p></div>
         </div>
       </div>
     </section>
@@ -115,6 +115,7 @@
             <p id="Unity">Unity</p>
             <p id="Figma">Figma</p>
             <p id="js">JavaScript</p>
+            <p id="php" style="color: skyblue;">PHP</p>
           </div>
           <div class="skills-title"><h1>}</h1></div>
         </div>
@@ -216,5 +217,12 @@
         </div>
       </div>
     </section>
+    <script>window.addEventListener("scroll", function(){
+      var nav = document.querySelector("nav")
+      nav.classList.toggle('sticky', window.scrollY > 0);
+  });window.addEventListener("scroll", function(){
+    var nav = document.querySelector("nav")
+    nav.classList.toggle('sticky', window.scrollY > 0);
+});</script>
   </body>
 </html>
